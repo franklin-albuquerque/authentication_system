@@ -1,4 +1,4 @@
-#!/home/franklin/Documentos/Python/controle-de-acesso/bin/python3
+#!/home/franklin/Documentos/Python/GitHub/authentication_system/bin/python3.11
 # -*- coding: utf-8 -*-
 import re
 import sys

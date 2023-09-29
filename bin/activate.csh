@@ -8,7 +8,7 @@ alias deactivate 'test $?_OLD_VIRTUAL_PATH != 0 && setenv PATH "$_OLD_VIRTUAL_PA
 # Unset irrelevant variables.
 deactivate nondestructive
 
-setenv VIRTUAL_ENV "/home/franklin/Documentos/Python/controle-de-acesso"
+setenv VIRTUAL_ENV "/home/franklin/Documentos/Python/GitHub/authentication_system"
 
 set _OLD_VIRTUAL_PATH="$PATH"
 setenv PATH "$VIRTUAL_ENV/bin:$PATH"
@@ -17,8 +17,8 @@ setenv PATH "$VIRTUAL_ENV/bin:$PATH"
 set _OLD_VIRTUAL_PROMPT="$prompt"
 
 if (! "$?VIRTUAL_ENV_DISABLE_PROMPT") then
-    set prompt = "(controle-de-acesso) $prompt"
-    setenv VIRTUAL_ENV_PROMPT "(controle-de-acesso) "
+    set prompt = "(authentication_system) $prompt"
+    setenv VIRTUAL_ENV_PROMPT "(authentication_system) "
 endif
 
 alias pydoc python -m pydoc
